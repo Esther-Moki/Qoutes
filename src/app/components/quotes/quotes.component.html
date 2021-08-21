@@ -1,1 +1,1 @@
-<p *ngFor = "let quote of quotes">{{ quote.saying}}</p>
+<app-quote-item *ngFor = "let quote of quotes" [quote] = "quotes"></app-quote-item>
