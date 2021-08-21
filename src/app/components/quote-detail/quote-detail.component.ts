@@ -1,5 +1,5 @@
 import { Component, OnInit, Input, Output, EventEmitter} from '@angular/core';
-import{ Quote } from '../../quote'
+import{ Quote } from '../../quuote'
 
 @Component({
   selector: 'app-quote-detail',
