@@ -50,6 +50,13 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
+## Support and Contact details
+If you run into any issues or have questions, ideas,concerns or even want to make a contribution to the code,you can drop me an email on esthermoki@student.moringaschool.com.
+
+### License
+This document comes with <a href="https://github.com/Esther-Moki/Delani-Studio/blob/master/LICENSE" target="_blank">MIT Licence</a> . Find the License document attached to it to learn more about it.
+* Copyright (c) [2021] [Esther Moki]
+
 
 
 # DELANI STUDIO
