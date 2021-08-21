@@ -1,10 +1,34 @@
 # QuotesApp
-
+This project happens to be an app about Quotes,where one can submit their favorite quotes,the author and have them voted on. 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.1.
+
+* By Esther Moki
+* Date of current version:21/08/2021
+
+# Description
+This Quotes App project enables one to create quotes and have those quotes voted on whether they are terrible or are inspirational. 
 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+## Setup/Installation Requirement
+
+* 1.Clone this repo to your documents folder.
+* 2.Run ubuntu to install all the dependencies.
+* 3.Open the project on your VS code editor.
+* 4.Lastly open the project on `ng serve`.
+
+### Known Bugs
+There are no known bugs yet.
+
+## Technologies Used
+Languages used include:
+* 1.Html
+* 2.CSS
+* 3.JavaScript
+* 4.Jquery
+* 5.Angular CLI
 
 ## Code scaffolding
 
@@ -25,3 +49,37 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+
+# DELANI STUDIO
+This project happens to be a portfolio about DELANI STUDIO,a software development company,highlighting web development services offered at the company. 
+
+* By Esther Moki
+* Date of current version:25/07/2021
+
+Description
+This project happens to be a portfolio about DELANI STUDIO-a software development company-that best describes their web development work,among other web design development services offered. 
+
+## Setup/Installation Requirement
+* 1.Clone this repo to your documents folder.
+* 2.Run ubuntu to install all the dependencies.
+* 3.Open the project on your VS code editor.
+* 4.Lastly open the project on live server.
+
+### Known Bugs
+There are no known bugs yet.
+
+## Technologies Used
+Languages used include:
+* 1.Html
+* 2.CSS
+* 3.JavaScript
+* 4.Jquery
+
+## Support and Contact details
+If you run into any issues or have questions, ideas,concerns or even want to make a contribution to the code,you can drop me an email on esthermoki@student.moringaschool.com.
+
+### License
+This document comes with <a href="https://github.com/Esther-Moki/Delani-Studio/blob/master/LICENSE" target="_blank">MIT Licence</a> . Find the License document attached to it to learn more about it.
+* Copyright (c) [2021] [Esther Moki]
