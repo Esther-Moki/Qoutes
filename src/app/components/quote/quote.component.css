@@ -10,9 +10,24 @@
 #quot{
   font-size: 18px;
   padding: 10px;
-  color: white;
+  color: #ffffff;
 }
 #auth{
-  color: red;
+  color:#EAAD33;
   text-align: right;
+  padding-bottom: 2px;
+  padding-right: 10px;
+}
+#sub{
+  padding-left: 10px;
+  color: #ffffff;
+}
+#tit{
+  color: #ffffff; 
+  padding-left: 10px;
+}
+#tm{
+  margin-top: -28px;
+  padding-left: 10px;
+  color:#EAAD33;
 }

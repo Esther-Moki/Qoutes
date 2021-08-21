@@ -4,5 +4,6 @@ export class Quote {
   quoteTittle!:string
   name!: string;
   description!: string;
+  day!:Date;
 }
 

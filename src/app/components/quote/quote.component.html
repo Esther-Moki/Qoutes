@@ -5,10 +5,11 @@
     <div class="col-md-6">
       <div *ngFor='let quote of quotes'>
         <div class="card quotedisplay">
-          <li id="sub">Submitted by:{{quote.submitted}}</li>
           <li id="tit">Quote title:{{quote.quoteTittle}}</li>
-          <li id="quot">The Quote:{{quote.description}}</li>
+          <li id="sub">Submitted by:{{quote.submitted}}</li>
+          <li id="quot">Quote:{{quote.description}}</li>
           <li id="auth">Author:{{quote.name}}</li>
+          <li id="tm">Date posted:{{quote.day|date}}</li>
         </div>
       </div>
     </div>
