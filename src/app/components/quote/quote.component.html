@@ -1,16 +1,27 @@
 <div class="container">
   <h1 class="text-center">QUOTES</h1>
   <hr>
-
-  <app-quote-form></app-quote-form>
   <div class="row">
-    <div class="col-md-4">
-      <!-- <div *ngFor='let quote of quotes'> -->
-        <div class="card">
-          <li>Author:{{quote.name}}</li>
-          <li>The Quote:{{quote.description}}</li>
+    <div class="col-md-6">
+      <div *ngFor='let quote of quotes'>
+        <div class="card quotedisplay">
+          <li id="sub">Submitted by:{{quote.submitted}}</li>
+          <li id="tit">Quote title:{{quote.quoteTittle}}</li>
+          <li id="quot">The Quote:{{quote.description}}</li>
+          <li id="auth">Author:{{quote.name}}</li>
         </div>
-      <!-- </div> -->
+      </div>
+    </div>
+    <div class="col-md-6">
+      <app-quote-form></app-quote-form> 
+    </div>
+
+  </div>
+
+  
+  <div class="row">
+    <div class="col-md-4 ">
+     
     </div>
   </div>
 
