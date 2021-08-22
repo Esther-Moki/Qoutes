@@ -1,6 +1,8 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { QuoteComponent } from './quote.component';
+import { FormsModule } from '@angular/forms';
+
 
 describe('QuoteComponent', () => {
   let component: QuoteComponent;
