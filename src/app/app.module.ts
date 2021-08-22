@@ -8,7 +8,7 @@ import { QuoteDetailComponent } from './components/quote-detail/quote-detail.com
 import { QuoteFormComponent } from './components/quote-form/quote-form.component';
 import { FormsModule } from '@angular/forms';
 import { ReactiveFormsModule } from '@angular/forms';
-import {NgForm} from '@angular/forms';
+import { NgForm } from '@angular/forms';
 import { DateCountPipe } from './date-count.pipe';
 import { CountvotesDirective } from './countvotes.directive';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
@@ -23,7 +23,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     QuoteFormComponent,
     DateCountPipe,
     CountvotesDirective,
-  
+
   ],
   imports: [
     BrowserModule,
@@ -36,4 +36,4 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 })
 export class AppModule {
 
- }
+}

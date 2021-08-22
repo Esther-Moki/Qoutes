@@ -39,7 +39,7 @@ export class QuoteFormComponent implements OnInit {
     this.onAddQuote.emit(newQuotes)
 
     this.newQuote.submitted = '';
-    this.newQuote.day =;
+    this.newQuote.day = new Date;
     this.newQuote.description = '';
     this.newQuote.quoteTittle = '';
     this.newQuote.name = '';

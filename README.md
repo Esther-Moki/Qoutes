@@ -1,6 +1,6 @@
-# QuotesApp
+# Art Quotes
 
-This project happens to be an app about Quotes,where one can submit their favorite quotes,the author and have them voted on. 
+This project happens to be an app about Quotes,where one can submit their favorite quotes,the author,have them voted on and also write their own quotes. 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.1.
 
 * By Esther Moki
