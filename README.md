@@ -8,7 +8,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Description
 
-This Quotes App project enables one to create quotes and have those quotes voted on whether they are terrible or are inspirational. 
+This Art Quotes App enables one to create quotes and have those quotes voted on whether they are terrible or are inspirational. They can also submit quotes from other authors.
 
 ## Development server
 
