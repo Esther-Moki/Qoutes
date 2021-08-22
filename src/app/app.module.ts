@@ -10,6 +10,9 @@ import { FormsModule } from '@angular/forms';
 import { ReactiveFormsModule } from '@angular/forms';
 import {NgForm} from '@angular/forms';
 import { DateCountPipe } from './date-count.pipe';
+import { CountvotesDirective } from './countvotes.directive';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+
 
 
 @NgModule({
@@ -19,6 +22,7 @@ import { DateCountPipe } from './date-count.pipe';
     QuoteDetailComponent,
     QuoteFormComponent,
     DateCountPipe,
+    CountvotesDirective,
   
   ],
   imports: [
@@ -30,4 +34,6 @@ import { DateCountPipe } from './date-count.pipe';
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+
+ }
