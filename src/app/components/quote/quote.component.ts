@@ -34,7 +34,7 @@ export class QuoteComponent implements OnInit {
   ngOnInit(): void {
   }
   addQuotes(quote:any) {
-   return alert("moki");
+   return (`${this.quotes.push(quote) }`);
   }
 
 }
