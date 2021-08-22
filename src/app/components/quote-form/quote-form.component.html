@@ -3,7 +3,7 @@
     <h2 class="text-center">Create your own Quote</h2>
     <hr>
 
-    <form  #quoteForm='ngForm' id="quoteForm"  (ngSubmit)='submitQuote()'> 
+    <form #quoteForm='ngForm' id="quoteForm" (ngSubmit)='submitQuote()'>
 
       <div class="col-md-12">
         <label for="quoteTitle" class="font-weight-bold">Quote title</label>
@@ -12,7 +12,7 @@
         <div [hidden]="name.valid || name.pristine" class="alert alert-danger">
           <p>Please enter the quote tittle</p>
         </div>
-        
+
       </div>
 
       <div class="col-md-12">
@@ -31,7 +31,7 @@
         <div [hidden]="description.valid || description.pristine" class="alert alert-danger">
           <p>Please enter the quote</p>
         </div>
-      </div>  
+      </div>
 
       <div class="col-md-12">
         <label for="quote" class="font-weight-bold">Author of the quote</label>
@@ -44,15 +44,15 @@
 
       <div class="col-md-12">
         <label for="date" class="font-weight-bold">Date posted</label>
-        <input type="date" class="form-control" placeholder="Enter the date you posted" id="complete"
+        <input type="date" class="form-control"  id="complete"
           [(ngModel)]="newQuote.day" name="day" #day="ngModel" required>
         <div [hidden]="day.valid || day.pristine" class="alert alert-danger">
           <p>Date is required</p>
         </div>
       </div>
-      
+
 
       <button type="submit" class="btn btn-warning">Add Quote</button>
     </form>
   </div>
-</div> 
+</div>

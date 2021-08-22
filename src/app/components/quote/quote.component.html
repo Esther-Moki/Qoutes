@@ -4,29 +4,19 @@
   <div class="row">
     <div class="col-md-6">
       <div *ngFor='let quote of quotes; let i = index'>
-       <div class="card quotedisplay">
+        <div class="card quotedisplay">
           <li id="tit">Quote title:{{quote.quoteTittle}}</li>
           <li id="sub">Submitted by:{{quote.submitted}}</li>
           <li id="quot">Quote:{{quote.description}}</li>
           <li id="auth">Author:{{quote.name}}</li>
-          <li id="tm" appStrikethrough>Date posted:{{quote.day|date}}</li> 
+          <li id="tm" appStrikethrough>Date posted:{{quote.day|date}}</li>
           <app-quote-detail [quote]='quote'></app-quote-detail>
-       </div>
+        </div>
       </div>
     </div>
     <div class="col-md-6">
-      <app-quote-form  (onAddQuote)="addQuotes($event)"></app-quote-form> 
+      <app-quote-form (onAddQuote)="addQuotes($event)"></app-quote-form>
     </div>
   </div>
 
-  
-
-  <!-- <ul>
-     <div *ngFor='let quote of quotes; let i = index'>
-      <li>{{quote.name}}</li>
-      <button (click)='toggleDetails(i)'>Toggle Details</button>
-       <app-quote-detail *ngIf='quote.showDescription' [quote] ='quote' (isComplete) = 'completeQuote($event,i)'></app-quote-detail> -->
-  <!-- </div> -->
-  <!-- </ul> -->
-  <!-- <p *ngIf='quotes.length > 5'>Your quotes are too many</p> -->
 </div>
