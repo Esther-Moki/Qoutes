@@ -11,11 +11,11 @@ import { FormsModule, NgForm } from '@angular/forms';
 export class QuoteComponent implements OnInit {
 
   quotes: Quote[] = [
-   new Quote (1, 'Esther Moki','Courage','Martin Luther King Jr','Our lives begin to end the day we become silent about things that matter',new Date(2021,7,21) ),
-   new Quote ( 2, 'Scholastica Kinanu', 'Life','Malcom x',  'If you have no critics,you will likely have no success',new Date(2021,7,21) ),
-   new Quote  (3, 'Lucy Ngugi', 'Forgiveness', 'Martin Luther King Jr', 'Forgiveness is not an occasional act,it is a constant attitude',new Date(2021,7,21 ) ),
-   new Quote  (4, 'Chris Brown', 'Struggles', 'Esther Mwende Moki','There is no better than adversity.Every defeat, every heartbreak,every loss contains its on seed,its own lesson on how to improve your performance next time',new Date(2021,7,21) ),
-   new Quote (5,'Jordin Sparks', 'Love','John Doe', 'I imagine one of the reasons people cling to their hates so stubbornly is because they sense once hate is gone they will be forced to deal with pain',new Date(2021,7,21 ) ),
+   new Quote ('Esther Moki','Courage','Martin Luther King Jr','Our lives begin to end the day we become silent about things that matter',new Date(2021,7,21) ),
+   new Quote (  'Scholastica Kinanu', 'Life','Malcom x',  'If you have no critics,you will likely have no success',new Date(2021,7,21) ),
+   new Quote  ('Lucy Ngugi', 'Forgiveness', 'Martin Luther King Jr', 'Forgiveness is not an occasional act,it is a constant attitude',new Date(2021,7,21 ) ),
+   new Quote  ('Chris Brown', 'Struggles', 'Esther Mwende Moki','There is no better than adversity.Every defeat, every heartbreak,every loss contains its on seed,its own lesson on how to improve your performance next time',new Date(2021,7,21) ),
+   new Quote ('Jordin Sparks', 'Love','John Doe', 'I imagine one of the reasons people cling to their hates so stubbornly is because they sense once hate is gone they will be forced to deal with pain',new Date(2021,7,21 ) ),
   
 
     // new Quote(1,  'Watch finding Nemo', 'Find an online version and watch merlin find his son'),
@@ -27,22 +27,14 @@ export class QuoteComponent implements OnInit {
   ];
 
 
-  newQuote = new Quote(0,"","","","",new Date());
-  @Output() addQuote = new EventEmitter<Quote>();
 
-  submitQuote(quoteForm:NgForm){
-  this.addQuote.emit(this.newQuote);
-  }
-  addNewQuote(quote:any){
-    let quoteLength = this.quotes.length;
-    quote.id = quoteLength+1;
-    quote.day = new Date(quote.day)
-    this.quotes.push(quote)
-  }
 
   constructor() { }
 
   ngOnInit(): void {
+  }
+  addQuotes(quote:any) {
+   return alert("moki");
   }
 
 }
