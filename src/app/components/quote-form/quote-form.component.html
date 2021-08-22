@@ -1,6 +1,6 @@
 <div class="card">
   <div class="row">
-    <h2 class="text-center">Create a new Goal</h2>
+    <h2 class="text-center">Create your own Quote</h2>
     <hr>
 
     <form  #quoteForm='ngForm' id="quoteForm"  (ngSubmit)='submitQuote()'> 
@@ -16,7 +16,7 @@
       </div>
 
       <div class="col-md-12">
-        <label for="author" class="font-weight-bold">Submitted by:</label>
+        <label for="author" class="font-weight-bold">Submitted by</label>
         <input type="text" id="name" class="form-control" placeholder="Your name" [(ngModel)]="newQuote.submitted"
           name="submitted" #name='ngModel' required>
         <div [hidden]="name.valid || name.pristine" class="alert alert-danger">
@@ -52,7 +52,7 @@
       </div>
       
 
-      <button type="submit" class="btn btn-warning">Add quote</button>
+      <button type="submit" class="btn btn-warning">Add Quote</button>
     </form>
   </div>
 </div> 
